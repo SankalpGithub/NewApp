@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Filter">
+            <menu>
+    <item
+        android:id="@+id/category"
+        android:title="Category"
+        android:icon="@drawable/category"/>
+
+    <item
+        android:id="@+id/country"
+        android:title="Country"
+        android:icon="@drawable/flag"/>
+            </menu>
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile">
+            <menu>
+        <item
+            android:id="@+id/lgoin"
+            android:title="login"
+            android:icon="@drawable/ic_baseline_login_24"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_baseline_settings_24"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
